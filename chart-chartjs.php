@@ -61,7 +61,30 @@
       Author: BootstrapMade
       Author URL: https://bootstrapmade.com
     ======================================================= -->
-<script src="js/schedule.js"></script>
+
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- nice scroll -->
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery.nicescroll.js" type="text/javascript"></script>
+    <!-- chartjs -->
+    <script src="assets/chart-master/Chart.js"></script>
+    <!-- custom chart script for this page only-->
+<!--    <script src="js/chartjs-custom.js"></script>-->
+    <!--custome script for all page-->
+    <script src="js/scripts.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+     <script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+     </script>
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
+    
+    
+    
+    <script src="js/schedule.js"></script>
 </head>
 
 <body>
@@ -220,6 +243,8 @@
                      <div class="cd-schedule loading">
                          <div class="timeline">
                              <ul>
+                                 <li><span>08:00</span></li>
+                                 <li><span>08:30</span></li>
                                  <li><span>09:00</span></li>
                                  <li><span>09:30</span></li>
                                  <li><span>10:00</span></li>
@@ -237,13 +262,12 @@
                                  <li><span>16:00</span></li>
                                  <li><span>16:30</span></li>
                                  <li><span>17:00</span></li>
-                                 <li><span>17:30</span></li>
-                                 <li><span>18:00</span></li>
+                                 
                              </ul>
                          </div> <!-- .timeline -->
 
 	<div class="events">
-		<ul>
+		<ul >
 			<li class="events-group">
 				<div class="top-info"><span>Monday</span></div>
 
@@ -256,7 +280,9 @@
 				<div class="top-info"><span>Tuesday</span></div>
 
 				<ul id = "tu">
+					
 
+					
 				</ul>
 			</li>
 
@@ -264,21 +290,23 @@
 				<div class="top-info"><span>Wednesday</span></div>
 
 				<ul id = "we">
-
+					
 				</ul>
 			</li>
 
 			<li class="events-group">
 				<div class="top-info"><span>Thursday</span></div>
 
-				<ul id = "th">	
+				<ul id = "th">
+					
 				</ul>
 			</li>
 
 			<li class="events-group">
 				<div class="top-info"><span>Friday</span></div>
-                <ul id = "fr">
 
+				<ul id = "fr">
+					
 				</ul>
 			</li>
 		</ul>
@@ -481,24 +509,7 @@
     </section>
     <!-- container section end -->
     <!-- javascripts -->
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery-1.8.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- nice scroll -->
-    <script src="js/jquery.scrollTo.min.js"></script>
-    <script src="js/jquery.nicescroll.js" type="text/javascript"></script>
-    <!-- chartjs -->
-    <script src="assets/chart-master/Chart.js"></script>
-    <!-- custom chart script for this page only-->
-<!--    <script src="js/chartjs-custom.js"></script>-->
-    <!--custome script for all page-->
-    <script src="js/scripts.js"></script>
-    <script src="js/modernizr.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-<script>
-	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
-</script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+    
 
 </body>
 </html>
